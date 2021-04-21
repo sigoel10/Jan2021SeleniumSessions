@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test automtion regression suite" verbose="3">
+
+	<test name="OpenCart Login Page Test">
+		<classes>
+			<class name="DemoCartTestNGAssignment.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="OpenCart Home Page Test">
+		<classes>
+			<class name="DemoCartTestNGAssignment.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="OPenCart Search Page Test">
+		<classes>
+			<class name="DemoCartTestNGAssignment.SearchPageTest" />
+		</classes>
+	</test>
+
+</suite>
